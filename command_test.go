@@ -73,7 +73,7 @@ func TestCommand_OnUsageError_WithWrongFlagValue(t *testing.T) {
 	app := NewApp()
 	app.Commands = []Command{
 		Command{
-			Name:   "bar",
+			Name: "bar",
 			Flags: []Flag{
 				IntFlag{Name: "flag"},
 			},
